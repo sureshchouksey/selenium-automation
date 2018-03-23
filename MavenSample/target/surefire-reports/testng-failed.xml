@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Module1Suite]">
+  <parameter name="sBrowser" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.cebc.utility.ExtentReporterNG"/>
+  </listeners>
+  <test name="Module1Suite(failed)">
+    <classes>
+      <class name="com.module1.Module1Test">
+        <methods>
+          <include name="AddModule1Page1"/>
+        </methods>
+      </class> <!-- com.module1.Module1Test -->
+      <class name="com.module1.Module1SuiteTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.module1.Module1SuiteTest -->
+    </classes>
+  </test> <!-- Module1Suite(failed) -->
+</suite> <!-- Failed suite [Module1Suite] -->
