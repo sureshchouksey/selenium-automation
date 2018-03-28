@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.050">
+           time="8.732">
   <properties />
   
   
-            <testcase name="AddOwner" time="9.050" classname="com.owner.FindOwnerTest" />
+            <testcase name="AddOwner" time="8.732" classname="com.owner.FindOwnerTest" />
       
 </testsuite>

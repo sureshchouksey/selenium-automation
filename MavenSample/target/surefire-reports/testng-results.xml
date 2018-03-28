@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ownersuite" duration-ms="9065" started-at="2018-03-23T11:38:11Z" finished-at="2018-03-23T11:38:20Z">
+  <suite name="ownersuite" duration-ms="8806" started-at="2018-03-28T09:07:48Z" finished-at="2018-03-28T09:07:57Z">
     <groups>
     </groups>
-    <test name="ownersuite" duration-ms="9065" started-at="2018-03-23T11:38:11Z" finished-at="2018-03-23T11:38:20Z">
+    <test name="ownersuite" duration-ms="8806" started-at="2018-03-28T09:07:48Z" finished-at="2018-03-28T09:07:57Z">
       <class name="com.owner.FindOwnerSuiteTest">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.owner.FindOwnerSuiteTest@3d99d22e]" name="init" is-config="true" duration-ms="7463" started-at="2018-03-23T17:08:03Z" finished-at="2018-03-23T17:08:11Z">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.owner.FindOwnerSuiteTest@3d99d22e]" name="init" is-config="true" duration-ms="49103" started-at="2018-03-28T14:36:59Z" finished-at="2018-03-28T14:37:48Z">
           <params>
             <param index="0">
               <value>
@@ -18,20 +18,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="killBrowser()[pri:0, instance:com.owner.FindOwnerSuiteTest@3d99d22e]" name="killBrowser" is-config="true" duration-ms="13393" started-at="2018-03-23T17:08:20Z" finished-at="2018-03-23T17:08:33Z">
+        <test-method status="PASS" signature="killBrowser()[pri:0, instance:com.owner.FindOwnerSuiteTest@3d99d22e]" name="killBrowser" is-config="true" duration-ms="4989" started-at="2018-03-28T14:37:58Z" finished-at="2018-03-28T14:38:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killBrowser -->
       </class> <!-- com.owner.FindOwnerSuiteTest -->
       <class name="com.owner.FindOwnerTest">
-        <test-method status="PASS" signature="AddOwner()[pri:0, instance:com.owner.FindOwnerTest@3dd4520b]" name="AddOwner" duration-ms="9050" started-at="2018-03-23T17:08:11Z" finished-at="2018-03-23T17:08:20Z">
+        <test-method status="PASS" signature="AddOwner()[pri:0, instance:com.owner.FindOwnerTest@3dd4520b]" name="AddOwner" duration-ms="8732" started-at="2018-03-28T14:37:48Z" finished-at="2018-03-28T14:37:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddOwner -->
       </class> <!-- com.owner.FindOwnerTest -->
     </test> <!-- ownersuite -->
   </suite> <!-- ownersuite -->
-  <suite name="SmokeSuite" duration-ms="0" started-at="2018-03-23T11:38:34Z" finished-at="2018-03-23T11:38:34Z">
+  <suite name="SmokeSuite" duration-ms="0" started-at="2018-03-28T09:08:05Z" finished-at="2018-03-28T09:08:05Z">
     <groups>
     </groups>
   </suite> <!-- SmokeSuite -->
