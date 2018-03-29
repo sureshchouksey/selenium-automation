@@ -3,15 +3,19 @@ package com.owner;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -36,18 +40,21 @@ public class FindOwnerSuiteTest {
 			{
 				if(sBrowser.equalsIgnoreCase("Firefox"))
 				{
-					
-				System.setProperty("webdriver.gecko.driver", UIdata.startuppath+"\\BrowseDrivers\\geckodriver.exe");
-				driver = new FirefoxDriver();
+					DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+					capabilities.setPlatform(Platform.LINUX);
+					driver = new RemoteWebDriver(new URL("http://192.168.35.230/wd/hub"), capabilities);
 				
 				}else if(sBrowser.equalsIgnoreCase("Chrome"))
 				{
-					System.setProperty("webdriver.chrome.driver",UIdata.startuppath+"\\BrowseDrivers\\chromedriver.exe");
-					driver = new ChromeDriver();
+					DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+					capabilities.setPlatform(Platform.LINUX);
+					driver = new RemoteWebDriver(new URL("http://192.168.35.230:4444/wd/hub"), capabilities);
+					
 				}
 				log.info("Browser has been launched");
+				
 				driver.get(PropertyFile.read_testdata("URL"));
-				driver.manage().window().maximize();
+				
 			}
 			
 			@AfterMethod

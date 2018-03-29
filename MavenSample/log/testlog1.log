@@ -1,20 +1,5 @@
-2018-03-23 17:05:46,437 [main] INFO com.owner.FindOwnerSuiteTest - Browser has been launched
-2018-03-23 17:05:51,110 [main] INFO com.vocalink.pages.FindOwner - Started data adding into owner form
-2018-03-23 17:05:54,680 [main] INFO com.vocalink.pages.FindOwner - Data added into owner form
-2018-03-23 17:05:55,276 [main] INFO com.vocalink.pages.FindOwner - Navigated to Home page
-2018-03-23 17:06:10,883 [main] INFO com.owner.FindOwnerSuiteTest - Browser is closed
-2018-03-23 17:08:08,818 [main] INFO com.owner.FindOwnerSuiteTest - Browser has been launched
-2018-03-23 17:08:13,324 [main] INFO com.vocalink.pages.FindOwner - Started data adding into owner form
-2018-03-23 17:08:17,800 [main] INFO com.vocalink.pages.FindOwner - Data added into owner form
-2018-03-23 17:08:18,338 [main] INFO com.vocalink.pages.FindOwner - Navigated to Home page
-2018-03-23 17:08:33,940 [main] INFO com.owner.FindOwnerSuiteTest - Browser is closed
-2018-03-23 17:19:47,727 [main] INFO com.owner.FindOwnerSuiteTest - Browser has been launched
-2018-03-23 17:19:55,120 [main] INFO com.vocalink.pages.FindOwner - Started data adding into owner form
-2018-03-23 17:19:59,532 [main] INFO com.vocalink.pages.FindOwner - Data added into owner form
-2018-03-23 17:20:00,066 [main] INFO com.vocalink.pages.FindOwner - Navigated to Home page
-2018-03-23 17:20:18,723 [main] INFO com.owner.FindOwnerSuiteTest - Browser is closed
-2018-03-28 14:37:43,786 [main] INFO com.owner.FindOwnerSuiteTest - Browser has been launched
-2018-03-28 14:37:50,803 [main] INFO com.vocalink.pages.FindOwner - Started data adding into owner form
-2018-03-28 14:37:55,026 [main] INFO com.vocalink.pages.FindOwner - Data added into owner form
-2018-03-28 14:37:55,471 [main] INFO com.vocalink.pages.FindOwner - Navigated to Home page
-2018-03-28 14:38:03,352 [main] INFO com.owner.FindOwnerSuiteTest - Browser is closed
+2018-03-29 09:55:57,628 [main] INFO com.owner.FindOwnerSuiteTest - Browser has been launched
+2018-03-29 09:56:05,103 [main] INFO com.vocalink.pages.FindOwner - Started data adding into owner form
+2018-03-29 09:56:16,355 [main] INFO com.vocalink.pages.FindOwner - Data added into owner form
+2018-03-29 09:56:16,964 [main] INFO com.vocalink.pages.FindOwner - Navigated to Home page
+2018-03-29 09:56:19,284 [main] INFO com.owner.FindOwnerSuiteTest - Browser is closed
