@@ -28,7 +28,7 @@ import com.vocalink.utility.UIdata;
 public class FindOwnerSuiteTest {
 	//Static Block
 			{
-				PropertyConfigurator.configure(UIdata.startuppath+"\\src\\main\\resources\\Log4j.properties");
+				PropertyConfigurator.configure(UIdata.startuppath+"//src//main//resources//Log4j.properties");
 			}
 			public static WebDriver driver;
 			

@@ -1,15 +1,18 @@
 package com.vocalink.pages;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.vocalink.utility.UIdata;
+
 public class FindOwner {
 	public static Logger log = Logger.getLogger(FindOwner.class.getName());
 	public boolean addowner(WebDriver driver) throws Exception {
-		
+			
 		boolean isownerAdded = false;
 
 	        log.info("Started data adding into owner form");	
