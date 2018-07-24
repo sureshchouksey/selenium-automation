@@ -42,13 +42,13 @@ public class FindOwnerSuiteTest {
 				{
 					DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 					capabilities.setPlatform(Platform.LINUX);
-					driver = new RemoteWebDriver(new URL("http://192.168.35.230/wd/hub"), capabilities);
+					driver = new RemoteWebDriver(new URL("http://140.82.59.222/wd/hub"), capabilities);
 				
 				}else if(sBrowser.equalsIgnoreCase("Chrome"))
 				{
 					DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 					capabilities.setPlatform(Platform.LINUX);
-					driver = new RemoteWebDriver(new URL("http://192.168.35.230:4444/wd/hub"), capabilities);
+					driver = new RemoteWebDriver(new URL("http://140.82.59.222:4444/wd/hub"), capabilities);
 					
 				}
 				log.info("Browser has been launched");
